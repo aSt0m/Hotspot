@@ -1,0 +1,49 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 62%;
+}
+
+*, 
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+.main{
+    height: 100vh;
+    background: url(../img/hotspotPizza.jpg);
+    background-position: center center;
+    background-size:cover;  
+    background-blend-mode: saturation;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    
+
+}
+.countdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.numero{
+    color: #BD0059;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    margin: 0;
+} 
+.iniciar{
+    margin-bottom: 4rem;
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,#31B3B4, #FF429B)
+}
